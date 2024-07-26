@@ -14,25 +14,25 @@
   
   
   .section-headerMobile{
-
+    
     padding: 0 0 10px 20px;
-    width: 430px;
+    width: 94%;
   }
   .icon-logoMobile{
 
     height: 40px;
-    margin-right: 170px;
+    margin-right: 120px;
     margin-top: 25px;
   }
   .icon-notificationsMobile{
 
-    height: 30px;
+    height: 27px;
     margin-top: 15px;
     padding-bottom: 7px;
   }
   .icon-messageMobile{
 
-    height: 30px;
+    height: 27px;
     margin-left: 20px;
     padding-bottom: 7px;
   }
@@ -93,10 +93,11 @@
   }
 
   .section-body{
-
-    width: 451px;
-    height: 93%;
-    /* background-color: lightcyan; */
+    
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(7, 255, 255); */
     position: absolute;
     
   }
@@ -107,11 +108,12 @@
   }
   .section-story{
 
-    width: auto;
+    width: 100%;
     display: flex;
-    height: auto;
+    height: 150px;
     overflow: scroll;
     margin-bottom: 15px;
+    padding-left: px;
     /* background: lightseagreen; */
   }
   .section-story::-webkit-scrollbar{
@@ -133,7 +135,7 @@
   }
   .user-story img{
 
-    height: 90px;
+    height: 85px;
     border-radius: 50%;
     border: solid 3px rgb(224, 0, 0);
     padding: 3px;
@@ -153,8 +155,9 @@
   }
   .section-post{
     
+    
     width: 100%;
-    height: 710px;
+    /* height: 70px; */
 
   }
   .post{
@@ -170,7 +173,7 @@
   }
   .img-profile{
 
-    height: 50px;
+    height: 45px;
     border-radius: 50%;
     margin-right: 5px;
   }
@@ -184,7 +187,7 @@
   }
   .txt-username{
 
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px;
   }
   .icon-verify{
@@ -202,13 +205,20 @@
   }
   .txt-location{
 
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 2px;
     margin-left: 4px;
   }
   .icon-menu{
+    
+    display: none;
+    margin: 10px 0px 0px  210px;
+    height: 25px;
+    width: 25px;
+  }
+  .icon-menuMobile{
 
-    margin: 10px 0px 0px  270px;
+    margin: 10px 0px 0px  220px;
     height: 25px;
     width: 25px;
   }
@@ -222,8 +232,8 @@
 
     width: 28px;
     height: 28px;
-    margin-right: 10px;
-    margin-top: 7px;
+    margin-right: 15px;
+    margin-top: 10px;
   }
   .icon-like{
 
@@ -231,13 +241,13 @@
   }
   .icon-share{
 
-    margin-right: 280px;
+    margin-right: 205px;
   }
   .icon-save{
 
     width: 28px;
     height: 28px;
-    margin-top: 7px;
+    margin-top: 10px;
   }
   .txt-likes{
 
@@ -577,6 +587,10 @@
     height: 25px;
     width: 25px;
   }
+  .icon-menuMobile{
+
+    display: none;
+  }
   .post-body img{
 
     width: 100%;
@@ -639,6 +653,7 @@
     font-size: 13px;
     margin-top: 3px;
     color: grey;
+    background: transparent;
   }
   .txt-timeMobile{
 
@@ -753,12 +768,6 @@
     font-size: 13px;
     margin-top: 10px;
   }
-  .section-suggestion{
-
-    width: 30%;
-    height: 100%;
-    /* background-color: brown; */
-  }
   .section-post{
     
     width: 450px;
@@ -778,29 +787,29 @@
     padding: 10px 0px 0px 5px;
   }
   .img-profile{
-
+    
     height: 40px;
     border-radius: 50%;
     margin-right: 5px;
   }
   .div-username{
-
+    
     display: flex;
   }
   .txt-username{
-
+    
     font-size: 15px;
     padding: 5px;
   }
   .icon-verify{
-   
+    
     display: none;
     height: 13px;
     margin-top: 8px;
     width: 13px;
   }
   .txt-time{
-
+    
     font-size: 14px;
     margin-top: 5px;
   }
@@ -810,13 +819,17 @@
     margin-left: 4px;
   }
   .icon-menu{
-
+    
     margin: 10px 0px 0px  305px;
     height: 25px;
     width: 25px;
   }
+  .icon-menuMobile{
+    
+    display: none;
+  }
   .post-body img{
-
+    
     width: 100%;
     height: 500px;
     margin-top: 10px;
@@ -830,57 +843,130 @@
     margin-top: 7px;
   }
   .icon-like{
-
+    
     margin-left: 2px;
   }
   .icon-share{
-
+    
     margin-right: 323px;
   }
   .icon-save{
-
+    
     width: 23px;
     height: 23px;
     margin-top: 7px;
   }
   .txt-likes{
-
+    
     margin-top: 10px;
     font-weight: 600;
   }
   .post-discrption{
-
+    
     display: flex;
     margin-top: 5px;
   }
   .post-discrption h1{
-
+    
     font-size: 15px;
     margin-right: 5px;
     font-weight: 900;
   }
   .post-discrption p{
-
+    
     font-size: 15px;
     margin-top: 0px;
   }
   .txt-comments{
-
+    
     font-size: 13px;
     margin-top: 10px;
     color: grey;
   }
   .inp-comments{
-
+    
     outline: none;
     border: none;
     font-size: 13px;
     margin-top: 3px;
     color: grey;
+    background: transparent;
   }
   .txt-timeMobile{
-
+    
     display: none;
   }
+  
+  .section-suggestion{
+  
+    width: 30%;
+    height: 600px;
+    padding-top:20px;
+    /* background-color: brown; */
+  }
+  .suggestion-header{
 
+    display: flex;
+    margin: 15px 0px 5px 0px;
+  }
+  .suggestion-header-txt1{
+
+    font-size: 12px;
+    color: grey;
+  }
+  .suggestion-header-txt2{
+
+    font-size: 12px;
+    color: grey;
+    margin-left: 132px;
+  }
+  .users{
+
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+  }
+  .users img{
+    
+    width: 40px;
+    border-radius: 50%;
+  }
+  .users h1{
+    
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .switch{
+
+    margin-left: 150px;
+    font-size: 12px;
+    color: #004ef6;
+  }
+  .follow{
+
+    margin-left: 100px;
+    font-size: 12px;
+    color: #004ef6;
+  }
+  .txt-forYou{
+
+    font-size: 10px;
+    color: grey ;
+    margin: 5px 0px 0px 10px;
+  }
+  .txt-about{
+
+    margin-top: 20px;
+    color: grey;
+  }
+  .txt-about a{
+
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .txt-about a:hover{
+
+    text-decoration: underline;
+  }
+  
 }
