@@ -12,10 +12,6 @@
 
 @media screen and (max-width:480px) {
   
-  body{
-
-    background-color: lightcyan;
-  }
   .mobileView{
 
     margin-top: 350px;
@@ -26,7 +22,7 @@
   }
   .section-headerMobile{
     
-    display: none;
+    display: flex;
     padding: 0 0 10px 20px;
     width: 70%;
   }
@@ -39,12 +35,13 @@
   .icon-notificationsMobile{
 
     height: 27px;
-    margin-top: 15px;
+    margin-top: 30px;
     padding-bottom: 7px;
   }
   .icon-messageMobile{
 
     height: 27px;
+    margin-top: 30px;
     margin-left: 20px;
     padding-bottom: 7px;
   }
@@ -54,7 +51,7 @@
     z-index: 1;
     bottom: 0;
     top: auto; 
-    display: none;
+    display: flex;
     padding: 10px 0px 0px 35px;
     border-top: solid 1px rgba(89, 84, 84, 0.373);
     width: 100%;
@@ -66,7 +63,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
-    margin-right: 3px;
+    margin-right: 15px;
     margin-bottom: 10px;
   }
   .buttons img {
@@ -106,7 +103,7 @@
 
   .section-body{
     
-    display: none;
+    display: ;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -307,7 +304,256 @@
 }
 
 
-@media screen and (min-width:481px) and (max-width:1023px){
+@media screen and (min-width:481px) and (max-width:676px){
+
+  .section-headerMobile{
+
+    display: none;
+  }
+  .section-navbar {
+
+    position: fixed;
+    padding: 20px 0px 0px 10px;
+    border-right: solid 1px rgba(89, 84, 84, 0.277);
+    width: px;
+    height: 100vh;
+  }
+  .buttons {
+  
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .buttons img {
+  
+    height: 25px;
+    margin-right: 10px;
+  }
+  .buttons h1 {
+    
+    display: none;
+    font-size: 18px;
+    
+  }
+  .txt-logo{
+      
+      display: none;
+      margin-bottom: 37px;
+      margin-left: 10px;
+      padding-top: 20px;
+  }
+  .img-logo{
+  
+      margin-bottom: 37px;
+      /* margin-left: 10px; */
+      padding-top: 20px;
+  }
+  .button-thread{
+  
+      margin-top: 70px;
+  }
+
+  .section-body{
+
+    width: 90%;
+    height: 100%;
+    /* background-color: lightcyan; */
+    position: absolute;
+    left: 70px;
+  }
+  .section-center{
+
+    width:100% ;
+    height: 100%;
+    /* background-color: lightcoral; */
+  }
+
+  .section-story{
+
+    width: 90%;
+    display: flex;
+    height: 120px;
+    overflow: scroll;
+    /* background: lightseagreen; */
+    /* margin-left: 170px; */
+    padding-top: 15px;
+  }
+  .section-story::-webkit-scrollbar{
+
+    display: none;
+  }
+  .user-story{
+
+    width: 90px;
+    height: 100%;
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .story-outer{
+
+    background: linear-gradient(to right, #f99b4a,#c92d8c);
+    height: 65px;
+    height: 65px;
+    border-radius: 100%;
+    padding: 2px;
+  }
+  .user-story img{
+
+    height: 65px;
+    border-radius: 50%;
+  }
+  .user-story p{
+
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .section-suggestion{
+    
+    display: none;
+    width: 30%;
+    height: 100%;
+    /* background-color: brown; */
+  }
+  .section-post{
+    
+    width: 450px;
+    height: 710px;
+    margin-left: 30px;
+    /* background-color: #f99b4a; */
+  }
+  .post{
+
+    border-bottom: solid 1px rgba(128, 128, 128, 0.282);
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
+  .post-header {
+
+    display: flex;
+    padding: 10px 0px 0px 5px;
+  }
+  .img-profile{
+
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .div-username{
+
+    display: flex;
+  }
+  .txt-username{
+
+    font-size: 15px;
+    padding: 5px;
+  }
+  .icon-verify{
+   
+    display: none;
+    height: 13px;
+    margin-top: 8px;
+    width: 13px;
+  }
+  .txt-time{
+
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .txt-location{
+
+    font-size: 12px;
+    margin-left: 4px;
+  }
+  .icon-menu{
+
+    margin: 10px 0px 0px  305px;
+    height: 25px;
+    width: 25px;
+  }
+  .icon-menuMobile{
+
+    display: none;
+  }
+  .post-body img{
+
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .icons{
+
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+    margin-top: 7px;
+  }
+  .icon-like{
+
+    margin-left: 2px;
+  }
+  .icon-share{
+
+    margin-right: 323px;
+  }
+  .icon-save{
+
+    width: 23px;
+    height: 23px;
+    margin-top: 7px;
+  }
+  .txt-likes{
+
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .post-discrption{
+
+    display: flex;
+    margin-top: 5px;
+  }
+  .post-discrption h1{
+
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 900;
+  }
+  .post-discrption p{
+
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .txt-comments{
+
+    font-size: 13px;
+    margin-top: 10px;
+    color: grey;
+  }
+  .inp-comments{
+
+    outline: none;
+    border: none;
+    font-size: 13px;
+    margin-top: 3px;
+    color: grey;
+    background: transparent;
+  }
+  .txt-timeMobile{
+
+    display: none;
+  }
+
+  .mobileView{
+
+    display: none;
+  }
+
+}
+@media screen and (min-width:677px) and (max-width:1024px){
 
   .section-headerMobile{
 
@@ -557,7 +803,320 @@
 
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1025px) and (max-width:1347px){
+   
+  .section-headerMobile{
+
+    display: none;
+  }
+  .section-navbar {
+
+    position: fixed;
+    padding: 20px 0px 0px 10px;
+    border-right: solid 1px rgba(89, 84, 84, 0.277);
+    width: 200px;
+    height: 100vh;
+  }
+  .buttons {
+  
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .buttons img {
+  
+    height: 25px;
+    margin-right: 10px;
+  }
+  .buttons h1 {
+  
+    font-size: 18px;
+    
+  }
+  .txt-logo{
+  
+      margin-bottom: 37px;
+      margin-left: 10px;
+      padding-top: 20px;
+  }
+  .img-logo{
+      
+      display: none;
+      margin-bottom: 37px;
+      margin-left: 10px;
+      padding-top: 20px;
+  }
+  .button-thread{
+  
+      margin-top: 70px;
+  }
+  
+  .section-body{
+
+    width: 85%;
+    height: 100%;
+    /* background-color: lightcyan; */
+    position: absolute;
+    left: 210px;
+    display: flex;
+  }
+  .section-center{
+
+    width:70% ;
+    height: 100%;
+    /* background-color: lightcoral; */
+  }
+  .section-story{
+
+    width: 71%;
+    display: flex;
+    height: 120px;
+    overflow: scroll;
+    /* background: lightseagreen; */
+    margin-left: 110px;
+    padding-top: 15px;
+  }
+  .section-story::-webkit-scrollbar{
+
+    display: none;
+  }
+  .user-story{
+
+    width: 90px;
+    height: 100%;
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .story-outer{
+
+    background: linear-gradient(to right, #f99b4a,#c92d8c);
+    height: 65px;
+    height: 65px;
+    border-radius: 100%;
+    padding: 2px;
+  }
+  .user-story img{
+
+    height: 65px;
+    border-radius: 50%;
+  }
+  .user-story p{
+
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .section-post{
+    
+    width: 450px;
+    height: 710px;
+    margin-left: 150px;
+    /* background-color: #f99b4a; */
+  }
+  .post{
+
+    border-bottom: solid 1px rgba(128, 128, 128, 0.282);
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+  }
+  .post-header {
+
+    display: flex;
+    padding: 10px 0px 0px 5px;
+  }
+  .img-profile{
+    
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .div-username{
+    
+    display: flex;
+  }
+  .txt-username{
+    
+    font-size: 15px;
+    padding: 5px;
+  }
+  .icon-verify{
+    
+    display: none;
+    height: 13px;
+    margin-top: 8px;
+    width: 13px;
+  }
+  .txt-time{
+    
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .txt-location{
+
+    font-size: 12px;
+    margin-left: 4px;
+  }
+  .icon-menu{
+    
+    margin: 10px 0px 0px  305px;
+    height: 25px;
+    width: 25px;
+  }
+  .icon-menuMobile{
+    
+    display: none;
+  }
+  .post-body img{
+    
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .icons{
+
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+    margin-top: 7px;
+  }
+  .icon-like{
+    
+    margin-left: 2px;
+  }
+  .icon-share{
+    
+    margin-right: 323px;
+  }
+  .icon-save{
+    
+    width: 23px;
+    height: 23px;
+    margin-top: 7px;
+  }
+  .txt-likes{
+    
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .post-discrption{
+    
+    display: flex;
+    margin-top: 5px;
+  }
+  .post-discrption h1{
+    
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 900;
+  }
+  .post-discrption p{
+    
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .txt-comments{
+    
+    font-size: 13px;
+    margin-top: 10px;
+    color: grey;
+  }
+  .inp-comments{
+    
+    outline: none;
+    border: none;
+    font-size: 13px;
+    margin-top: 3px;
+    color: grey;
+    background: transparent;
+  }
+  .txt-timeMobile{
+    
+    display: none;
+  }
+  
+  .section-suggestion{
+  
+    width: 30%;
+    height: 600px;
+    padding-top:20px;
+    /* background-color: brown; */
+  }
+  .suggestion-header{
+
+    display: flex;
+    margin: 15px 0px 5px 0px;
+  }
+  .suggestion-header-txt1{
+
+    font-size: 12px;
+    color: grey;
+  }
+  .suggestion-header-txt2{
+
+    font-size: 12px;
+    color: grey;
+    margin-left: 132px;
+  }
+  .users{
+
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+  }
+  .users img{
+    
+    width: 40px;
+    border-radius: 50%;
+  }
+  .users h1{
+    
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .switch{
+
+    margin-left: 150px;
+    font-size: 12px;
+    color: #004ef6;
+  }
+  .follow{
+
+    margin-left: 100px;
+    font-size: 12px;
+    color: #004ef6;
+  }
+  .txt-forYou{
+
+    font-size: 10px;
+    color: grey ;
+    margin: 5px 0px 0px 10px;
+  }
+  .txt-about{
+
+    margin-top: 20px;
+    color: grey;
+  }
+  .txt-about a{
+
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .txt-about a:hover{
+
+    text-decoration: underline;
+  }
+
+  .mobileView{
+
+    display: none;
+  }
+  
+}
+@media screen and (min-width:1348px){
    
   .section-headerMobile{
 
