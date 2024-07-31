@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width:373px) {
+@media screen and (max-width:374px) {
   
   .mobileView{
 
@@ -152,6 +152,59 @@
     margin-left: 10px;
   }
 
+  .my-story{
+
+    width: auto;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .my-story img{
+
+    height: 80px;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  .my-story p{
+
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  .add{
+
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    margin: 45px 0px 0px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .add div{
+    width: 20px;
+    height: 20px;
+    background-color: #004ef6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .add img{
+
+    height: 10px;
+    border: none;
+    filter: invert(1);
+  }
+
   .section-suggestion{
     
     display: none;
@@ -159,10 +212,8 @@
     height: 100%;
   }
   .section-post{
-    
-    
+     
     width: 100%;
-
   }
   .post{
 
@@ -245,7 +296,7 @@
   }
   .icon-share{
 
-    margin-right: 205px;
+    margin-right: 50%;
   }
   .icon-save{
 
@@ -301,7 +352,7 @@
     color: grey;
   }
 }
-@media screen and (min-width:373px) and (max-width:481px) {
+@media screen and (min-width:375px) and (max-width:481px) {
   
   .mobileView{
 
@@ -320,7 +371,7 @@
   .icon-logoMobile{
 
     height: 40px;
-    margin-right: 120px;
+    margin-right: 150px;
     margin-top: 25px;
   }
   .icon-notificationsMobile{
@@ -443,6 +494,58 @@
     margin-top: 5px;
     margin-left: 10px;
   }
+  .my-story{
+
+    width: auto;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .my-story img{
+
+    height: 80px;
+    border-radius: 50%;
+    padding: 3px;
+  }
+  .my-story p{
+
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 15px;
+  }
+
+  .add{
+
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    margin: 45px 0px 0px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .add div{
+    width: 20px;
+    height: 20px;
+    background-color: #004ef6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .add img{
+
+    height: 10px;
+    border: none;
+    filter: invert(1);
+  }
 
   .section-suggestion{
     
@@ -514,7 +617,7 @@
   }
   .icon-menuMobile{
 
-    margin: 10px 0px 0px  65%;
+    margin: 10px 0px 0px  58%;
     height: 25px;
     width: 25px;
   }
@@ -537,7 +640,7 @@
   }
   .icon-share{
 
-    margin-right: 205px;
+    margin-right: 55%;
   }
   .icon-save{
 
@@ -699,6 +802,9 @@
 
     font-size: 13px;
     margin-top: 10px;
+  }
+  .my-story{
+    display: none;
   }
   .section-suggestion{
     
@@ -949,6 +1055,9 @@
     font-size: 13px;
     margin-top: 10px;
   }
+  .my-story{
+    display: none;
+  }
   .section-suggestion{
     
     display: none;
@@ -1162,7 +1271,6 @@
     display: flex;
     height: 120px;
     overflow: scroll;
-    /* background: lightseagreen; */
     margin-left: 110px;
     padding-top: 15px;
   }
@@ -1198,12 +1306,14 @@
     font-size: 13px;
     margin-top: 10px;
   }
+  .my-story{
+    display: none;
+  }
   .section-post{
     
     width: 450px;
     height: 710px;
     margin-left: 150px;
-    /* background-color: #f99b4a; */
   }
   .post{
 
@@ -1510,6 +1620,9 @@
 
     font-size: 13px;
     margin-top: 10px;
+  }
+  .my-story{
+    display: none;
   }
   .section-post{
     
