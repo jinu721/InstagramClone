@@ -18,19 +18,10 @@ This project is a clone of the Instagram website, focusing on the home page desi
 
 The home page design is fully responsive and looks great on all devices, including laptops, tablets, and mobile phones.
 
-### Future Improvements
-
-- **Additional Pages:** Add other pages such as user profiles, explore page, and messaging features to expand the website.
-- **Backend Integration:** Implement a backend to handle user authentication, data storage, and real-time updates.
-
 ### How to Run
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser to view the home page.
-
-### Contributions
-
-Contributions to add new pages, enhance features, or integrate backend functionality are welcome! Feel free to fork the repository and submit pull requests.
 
 ### Author
 
