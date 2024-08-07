@@ -2,7 +2,7 @@
 ## Instagram Clone - Home Page Design
 
 ## Live Demo
-[To-Do List](https://jinu721.github.io/InstagramClone/)
+[Instagram Clone](https://jinu721.github.io/InstagramClone/)
 
 ### Overview
 
