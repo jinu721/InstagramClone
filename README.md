@@ -29,4 +29,4 @@ This project was created by jinu. You can reach out to me at jinu8683@gmail.com 
 
 ---
 
-Feel free to customize this description further to suit your project needs!
+This project is uploaded to the GitHub account jinu721 and is completely open-source. It is available for use for any purpose.
