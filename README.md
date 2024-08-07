@@ -1,6 +1,3 @@
-Here's an updated README for your Instagram clone project, following the same structure as the Medium clone description:
-
----
 
 ## Instagram Clone - Home Page Design
 
