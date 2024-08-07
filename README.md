@@ -1,6 +1,9 @@
 
 ## Instagram Clone - Home Page Design
 
+## Live Demo
+[To-Do List](https://jinu721.github.io/InstagramClone/)
+
 ### Overview
 
 This project is a clone of the Instagram website, focusing on the home page design. It aims to replicate the look and feel of Instagram's home page, with full responsiveness across all devices.
