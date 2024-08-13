@@ -351,6 +351,10 @@
     margin-top: 5px;
     color: grey;
   }
+
+  #div-arrow{
+    display: none;
+  }
 }
 @media screen and (min-width:375px) and (max-width:481px) {
   
@@ -695,6 +699,9 @@
     margin-top: 5px;
     color: grey;
   }
+  #div-arrow{
+    display: none;
+  }
 }
 
 
@@ -944,6 +951,10 @@
 
   .mobileView{
 
+    display: none;
+  }
+
+  #div-arrow{
     display: none;
   }
 
@@ -1199,6 +1210,10 @@
     display: none;
   }
 
+  #div-arrow{
+    display: none;
+  }
+
 }
 
 @media screen and (min-width:1025px) and (max-width:1347px){
@@ -1221,11 +1236,16 @@
     align-items: center;
     padding: 10px;
     margin-bottom: 10px;
+    width: 170px;
+    border-radius: 10px;
   }
   .buttons img {
   
     height: 25px;
     margin-right: 10px;
+  }
+  .buttons:hover{
+    background-color: rgba(62, 59, 59, 0.06);
   }
   .buttons h1 {
   
@@ -1267,12 +1287,13 @@
   }
   .section-story{
 
-    width: 71%;
+    width: 76%;
     display: flex;
     height: 120px;
     overflow: scroll;
-    margin-left: 110px;
-    padding-top: 15px;
+    /* background: lightseagreen; */
+    margin-left: 80px;
+    padding-top: 20px;
   }
   .section-story::-webkit-scrollbar{
 
@@ -1290,16 +1311,19 @@
   }
   .story-outer{
 
-    background: linear-gradient(to right, #f99b4a,#c92d8c);
-    height: 65px;
-    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #f99b4a,#c92d8c, #f60000);
+    height: 69px;
+    width: 69px;
     border-radius: 100%;
     padding: 2px;
   }
   .user-story img{
-
     height: 65px;
     border-radius: 50%;
+    border: solid 2px white;
   }
   .user-story p{
 
@@ -1502,7 +1526,14 @@
   .txt-about a{
 
     font-size: 12px;
+    color: grey;
     text-decoration: none;
+  }
+  #copyright{
+
+    font-size: 13px;
+    color: grey;
+    margin: 15px 0px 0px 0px;
   }
   .txt-about a:hover{
 
@@ -1512,6 +1543,23 @@
   .mobileView{
 
     display: none;
+  }
+
+  #div-arrow{
+    z-index: 1;
+    width: 23px;
+    height: 23px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 57%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #div-arrow img{
+    height: 11px;
   }
   
 }
@@ -1535,11 +1583,16 @@
     align-items: center;
     padding: 10px;
     margin-bottom: 10px;
+    width: 170px;
+    border-radius: 10px;
   }
   .buttons img {
   
     height: 25px;
     margin-right: 10px;
+  }
+  .buttons:hover{
+    background-color: rgba(62, 59, 59, 0.06);
   }
   .buttons h1 {
   
@@ -1581,13 +1634,13 @@
   }
   .section-story{
 
-    width: 69%;
+    width: 70%;
     display: flex;
     height: 120px;
     overflow: scroll;
     /* background: lightseagreen; */
-    margin-left: 170px;
-    padding-top: 15px;
+    margin-left: 165px;
+    padding-top: 20px;
   }
   .section-story::-webkit-scrollbar{
 
@@ -1598,23 +1651,26 @@
     width: 90px;
     height: 100%;
     display: flex;
-    margin-right: 5px;
+    margin-right: 7px;
     margin-left: 5px;
     flex-direction: column;
     align-items: center;
   }
   .story-outer{
 
-    background: linear-gradient(to right, #f99b4a,#c92d8c);
-    height: 65px;
-    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #f99b4a,#c92d8c, #f60000);
+    height: 64px;
+    width: 64px;
     border-radius: 100%;
     padding: 2px;
   }
   .user-story img{
-
-    height: 65px;
+    height: 60px;
     border-radius: 50%;
+    border: solid 2px white;
   }
   .user-story p{
 
@@ -1818,7 +1874,14 @@
   .txt-about a{
 
     font-size: 12px;
+    color: grey;
     text-decoration: none;
+  }
+  #copyright{
+
+    font-size: 13px;
+    color: grey;
+    margin: 15px 0px 0px 0px;
   }
   .txt-about a:hover{
 
@@ -1828,6 +1891,23 @@
   .mobileView{
 
     display: none;
+  }
+
+  #div-arrow{
+    z-index: 1;
+    width: 23px;
+    height: 23px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 760px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #div-arrow img{
+    height: 11px;
   }
   
 }
